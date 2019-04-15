@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e0e0"
+    android:orientation="vertical"
+    tools:context="com.example.melasin.thesigner.Content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"
+                android:text="@string/explore"/>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/material">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:text="@string/designer"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="@string/designer2"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tracks"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                   <LinearLayout
+                       android:layout_width="150dp"
+                       android:layout_height="95dp"
+                       android:layout_margin="10dp"
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:background="@drawable/blue_rectangle">
+
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_school_black_24dp"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textColor="@color/white"
+                           android:text="@string/get_apprentice"/>
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:orientation="vertical"
+                       android:gravity="center"
+                       android:layout_width="150dp"
+                       android:layout_height="95dp"
+                       android:layout_margin="10dp"
+                       android:background="@drawable/purple_rectangle">
+
+                       <ImageView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:src="@drawable/ic_child_care_black_24dp"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textColor="@color/white"
+                           android:text="Kids"/>
+
+                   </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="150dp"
+                        android:layout_height="95dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/yellow_rectangle">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_event_available_black_24dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="Events"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/community"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:background="#fff"
+            android:textSize="20sp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#fff">
+
+            <LinearLayout
+                android:id="@+id/linearCat"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/yellow_rectangle"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/styles"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/linearCat"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/linearCat"
+                android:text="Catalouge"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:text="100+ designs"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:background="#fff">
+
+          <LinearLayout
+              android:gravity="center"
+              android:layout_width="70dp"
+              android:layout_height="70dp"
+              android:layout_margin="10dp"
+              android:background="@drawable/purple_rectangle"
+              android:id="@+id/linearLayout">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/ic_stars_black_24dp"/>
+          </LinearLayout>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignTop="@+id/linearLayout"
+              android:layout_marginStart="12dp"
+              android:layout_toEndOf="@+id/linearLayout"
+              android:text="@string/buy"
+              android:textColor="#000000"
+              android:textSize="25sp"
+              android:id="@+id/textView2" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignStart="@+id/textView2"
+              android:layout_below="@+id/textView2"
+              android:text="@string/alot_to_purchase"
+              android:textColor="#000000" />
+
+      </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:background="#fff">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blue_rectangle"
+                android:id="@+id/linearLayout2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_content_cut_black_24dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/linearLayout2"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/linearLayout2"
+                android:text="Designers"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:text="first class designers"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

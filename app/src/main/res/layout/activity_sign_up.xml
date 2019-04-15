@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/change"
+    tools:context="com.example.melasin.thesigner.sign_up">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textColor="#000"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:text="@string/login"
+        android:background="@drawable/button_rectangle"
+        android:id="@+id/button" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_rectangle"
+        android:id="@+id/linearLayout3">
+
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:hint="@string/username"/>
+
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:drawableStart="@drawable/ic_lock_open_black_24dp"
+                android:hint="@string/password" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="#000"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:hint="@string/email_address" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle">
+
+        <ImageView
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_check_black_24dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

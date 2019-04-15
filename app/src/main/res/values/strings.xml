@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Thesigner</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="explore">Explore</string>
+    <string name="designer">The World of designers</string>
+    <string name="designer2">...more than designs</string>
+    <string name="community">Community</string>
+    <string name="buy">Buy</string>
+    <string name="alot_to_purchase">...alot to purchase</string>
+    <string name="get_apprentice">Get Apprentice</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">Login</string>
+</resources>
